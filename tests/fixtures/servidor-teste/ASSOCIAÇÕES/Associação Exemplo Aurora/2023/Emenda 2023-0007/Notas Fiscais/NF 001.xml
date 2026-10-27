@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARQUIVO SINTÉTICO DE TESTE: não segue layout oficial de NF-e; sem dados reais. -->
+<notaSintetica xmlns="urn:exemplo:fixture">
+  <descricao>NF 001 A</descricao>
+  <emitente>Fornecedor Exemplo Ltda (fictício)</emitente>
+  <valor>0.00</valor>
+</notaSintetica>

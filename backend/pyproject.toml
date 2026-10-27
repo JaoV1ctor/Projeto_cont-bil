@@ -1,0 +1,25 @@
+[project]
+name = "contabil-backend"
+version = "0.0.1"
+description = "Backend do sistema interno de organização contábil (MVP 0)."
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.13,<2",
+    "sqlalchemy>=2.0,<2.1",
+    "psycopg[binary]>=3.2,<3.4",
+    "argon2-cffi>=25.1,<26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["app", "app.auth"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

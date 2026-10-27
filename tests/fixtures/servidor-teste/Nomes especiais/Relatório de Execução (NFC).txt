@@ -1,0 +1,2 @@
+ARQUIVO SINTÉTICO DE TESTE — sem dados reais.
+nome em Unicode NFC

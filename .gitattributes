@@ -1,0 +1,4 @@
+# Amostra sintética: bytes exatos, sem conversão de fim de linha (hashes no manifesto).
+tests/fixtures/servidor-teste/** -text -diff
+tests/fixtures/servidor-teste.sha256 -text
+tests/fixtures/verify-fixture.sh text eol=lf
